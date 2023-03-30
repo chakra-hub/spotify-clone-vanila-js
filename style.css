@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    min-width: 350px;
+}
+
+.sidebar{
+    height: 85vh;
+    width: 20vw;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+#nav-logo{
+    background-color: black;
+    cursor: pointer;
+}
+
+#logo-image{
+    width: 10vw;
+    padding: 24px;
+    cursor: pointer;
+}
+#nav-logo-center{
+    background-color: black;
+    visibility: visible;
+    position: absolute;
+    left: 0;
+
+}
+
+#logo-image-center{
+    width: 10vw;
+    padding: 24px;
+    cursor: pointer;
+}
+.content{
+    height: auto;
+    width: 80vw;
+    background-image: linear-gradient(to bottom, #292929, #232323, #1e1e1e, #181818, #121212);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(12, 11, 11);
+    height: 12vh;
+    align-items: center;
+}
+
+.navigate-button{
+    display: flex;
+    margin-left: 30px;
+}
+
+.navigate-button li{
+    list-style-type: none;
+    font-size: 1.8em;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: rgb(27, 26, 26);
+    cursor: pointer;
+    font-weight: 400;
+
+}
+#back-navigate{
+    color: whitesmoke;
+}
+#front-navigate{
+    color: rgb(158, 152, 152);
+}
+#front-navigate:hover{
+    color: whitesmoke;
+}
+.login-signup{
+    margin-right: 3vw;
+    flex-wrap: nowrap;
+}
+
+#login-btn{
+    background-color: white;
+    border: 0;
+    padding: 15px 35px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 50px 50px;
+    cursor: pointer;
+}
+#login-btn:hover{
+    background-color: rgb(243, 240, 240);
+    border: 0;
+    padding: 15px 35px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 50px 50px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.24);
+}
+#signup-btn{
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    margin-right: 2vw;
+}
+
+#signup-btn:hover{
+    text-decoration: none;
+    color: rgb(243, 240, 240);
+    font-weight: 600;
+    margin-right: 2vw;
+    margin-top: 20px;
+}
+
+.sidebar-menu{
+    background-color: black;
+    padding: 0px 25px;
+    color: gray;
+    font-size: 16px;
+
+}
+.above-menu li{
+    list-style: none;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.above-menu li:hover{
+    list-style: none;
+    margin-top: 20px;
+    font-weight: bold;
+    color:whitesmoke;
+    cursor: pointer;
+}
+#sidebar-home{
+    color: whitesmoke;
+    cursor: pointer;
+}
+.below-menu{
+    margin-top: 40px;
+}
+.below-menu li{
+    list-style: none;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.below-menu li:hover{
+    list-style: none;
+    margin-top: 20px;
+    font-weight: bold;
+    color:whitesmoke;
+    cursor: pointer;
+}
+.focus-showall{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin: 5px 10px;
+}
+.focus-showall li{
+    list-style: none;
+}
+#focus{
+    font-weight: 700;
+    font-size: 22px;
+    color: whitesmoke;
+}
+#focus:hover{
+    font-weight: 700;
+    font-size: 22px;
+    color: whitesmoke;
+    text-decoration: underline 2px;
+    cursor: pointer;
+}
+#showall{
+    font-weight: 600;
+    font-size: 14px;
+    color: gray;
+}
+#showall:hover{
+    font-weight: 600;
+    font-size: 14px;
+    color: gray;
+    text-decoration: underline 1.5px;
+    cursor: pointer;
+}
+.all-music-container{
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: nowrap;
+    min-height: 200px;
+    min-width: 800px;
+    max-height: 50vh;
+}
+.one-music-container{
+    width: 12vw;
+    height: 100%;
+    border: 0;
+    border-radius: 8px;
+    min-width: 150px;
+}
+.one-music-container:hover{
+    width: 12vw;
+    height: 100%;
+    border: 0;
+    border-radius: 8px;
+    align-items: center;
+    min-width: 150px;
+    background-image: linear-gradient(to bottom, #212222, #272828, #2c2d2d, #323333, #383939);
+    cursor: pointer;
+}
+.music-details{
+    width: 85%;
+    height: 90%;
+    border: 0;
+    border-radius: 6px;
+    margin: auto;
+}
+.music-image{
+    display: block;
+    width:100%;
+    border-radius: 6px;
+}
+.music-image-container{
+    display: block;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 15px;
+}
+.music-name{
+    margin-top:20px;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    height: 20%;
+    color: whitesmoke;
+}
+.extra-details{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    font-size: 10px;
+    height: 20%;
+    color: rgb(192, 191, 191);
+}
+.action-bar{
+    width: 100vw;
+    background-image: linear-gradient(to top, #292929, #212121, #191919, #111111, #050505);
+    height: 15vh;
+    position: sticky;  
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#play-range{
+    width: 80%;
+    accent-color: rgb(1, 212, 1);
+    cursor: pointer;
+}
+.action-btn{
+    margin:5px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+#current-song-info{
+    position: absolute;
+    left: 10vw;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 605px){
+    .content{
+        height: 85vh;
+        width: 100vw;
+        background-color: green;
+    }
+    .sidebar{
+        height: 0;
+        width: 0;
+        background-color: black;
+        position: absolute;
+        display: none;
+    }
+    .navigate-button{
+        display: none;
+    }
+    #nav-logo-center{
+        background-color: black;
+        visibility: visible;
+        cursor: pointer;
+    }
+    #logo-image-center{
+        width: 100px;
+        padding: 0;
+        margin-left: 25px;
+    }
+    #login-btn{
+        background-color: white;
+        border: 0;
+        padding: 11px 25px;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 50px 50px;
+        cursor: pointer;
+    }
+    #login-btn:hover{
+        background-color: rgb(243, 240, 240);
+        border: 0;
+        padding: 11px 25px;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 50px 50px;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.24);
+    }
+    #signup-btn{
+        text-decoration: none;
+        color: gray;
+        font-weight: 600;
+        font-size: 15px;
+        margin-right: 2vw;
+    }
+    
+    #signup-btn:hover{
+        text-decoration: none;
+        color: rgb(243, 240, 240);
+        font-weight: 600;
+        margin-right: 2vw;
+        margin-top: 20px;
+    }
+    .action-bar{
+        width: 100vw;
+        background-color: yellow;
+        height: 15vh;
+        position: sticky;  
+        bottom: 0;
+    }
+}
